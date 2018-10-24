@@ -101,7 +101,7 @@ class AverageMeter(object):
         self.count += num
         self.avg = self.sum / self.count
 
-#why minus
+        
 def convert_to_unit_vector(angles):
     x = -torch.cos(angles[:, 0]) * torch.sin(angles[:, 1])
     y = -torch.sin(angles[:, 0])
